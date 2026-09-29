@@ -1,0 +1,26 @@
+# Secretos y entorno
+.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.sqlite3
+
+# Logs y volúmenes
+*.log
+citas_db_data/
+docker-volumes/
+
+# IDEs y SO
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
